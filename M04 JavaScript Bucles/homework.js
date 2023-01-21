@@ -187,6 +187,7 @@ function esPrimo(num) {
          if( num % i == 0 )
          {
             respuesta = false;
+            break;
          }
       }
    }
